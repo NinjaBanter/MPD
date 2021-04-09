@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/label"
+    android:onClick="onClick"
+    android:clickable="true"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:padding="10dip"
+    android:textSize="16dip"
+    android:textStyle="bold">
+    // Creator : Mark Feeney - MaticulationNumber : s1921828
+</TextView>

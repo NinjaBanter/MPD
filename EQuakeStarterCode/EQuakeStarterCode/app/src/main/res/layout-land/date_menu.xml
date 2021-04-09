@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mountainbg"
+
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="32sp"
+        android:paddingStart="32sp"
+        android:paddingLeft="32sp"
+        android:paddingTop="32sp"
+        android:paddingEnd="32sp"
+        android:paddingRight="32sp"
+        android:paddingBottom="32sp"
+        tools:layout_editor_absoluteY="32dp">
+
+        <ImageButton
+            android:id="@+id/returnBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            app:srcCompat="@drawable/abc_vector_test" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Student Name : Mark Feeney -- Maticulation Number: s1921828" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/dateText"
+                android:layout_width="311dp"
+                android:layout_height="79dp"
+                android:layout_marginBottom="50sp"
+                android:clickable="true"
+                android:onClick="onClick"
+                android:text="4/9/2021"
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/calculateBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/NTxtBox"
+                android:layout_width="171dp"
+                android:layout_height="34dp"
+                android:text="@string/the_most_northerly_earthquake_was"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/northTxtFill"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="..."
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/ETxtBox"
+                android:layout_width="50dp"
+                android:layout_height="39dp"
+                android:layout_weight="1"
+                android:text="The most Easterly Earthquake was:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/eastTxtFill"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="..."
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/STxtBox"
+                android:layout_width="5dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:text="The most Southerly Earthquake was:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/southTxtFill"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="..."
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="87dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/WTxtBox"
+                android:layout_width="50dp"
+                android:layout_height="43dp"
+                android:layout_weight="1"
+                android:text="The most Western Earthquake was: "
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/westTxtFill"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="..."
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="665dp"
+            android:layout_height="68dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/MTxtBox"
+                android:layout_width="26dp"
+                android:layout_height="58dp"
+                android:layout_weight="1"
+                android:text="The highest Magnitude Earthquake was:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/magTxtFill"
+                android:layout_width="147dp"
+                android:layout_height="58dp"
+                android:layout_weight="1"
+                android:text="..."
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/DDepTxtBox"
+                android:layout_width="27dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="The deepest depth Earthquake was:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/deepTxtFill"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="..."
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/SDTxtBox"
+                android:layout_width="70dp"
+                android:layout_height="56dp"
+                android:layout_weight="1"
+                android:text="The most Shallow Earthquake Was:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/shallTxtFill"
+                android:layout_width="0dp"
+                android:layout_height="56dp"
+                android:layout_weight="1"
+                android:text="TextView"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+    // Mark Feeney - MaticulationNumber : s1921828
+</ScrollView>
